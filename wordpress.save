@@ -1,0 +1,3 @@
+# sauvegarde auto de la config wordpress
+0 2 * * * sudo rsync -avz /var/www/html/wordpress/ /home/ubuntu/wordpress_save/
+

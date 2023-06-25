@@ -1,0 +1,2 @@
+#création d'une crontab pour la sauvegarde auto de mariadb
+0 2 * * * mysqldump -u wordpress -pwordpress wordpress > /home/ubuntu/wordpress.bak
